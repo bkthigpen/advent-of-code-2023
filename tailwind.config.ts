@@ -13,6 +13,15 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        snowflakesFall: {
+          '0%': { transform: 'translateY(-10%)' },
+          '100%': { transform: 'translateY(100vh)' }
+        },
+      },
+      animation: {
+        snowfall: 'snowflakesFall linear infinite'
+      }
     },
   },
   plugins: [],
