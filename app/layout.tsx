@@ -17,9 +17,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="bg-blue-950 overflow-hidden">
-      <Snowflakes />
-      <body className={`${inter.className} container mx-auto`}>
+    <html lang="en" className="bg-blue-950 overflow-hidden h-full">
+      <body className={`${inter.className}`}>
+        <Snowflakes />
         {children}
       </body>
     </html>
