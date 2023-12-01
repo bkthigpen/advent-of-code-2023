@@ -20,8 +20,10 @@ export default function RootLayout({
     <html lang="en" className="bg-blue-950 overflow-hidden h-full">
       <body className={`${inter.className}`}>
         <Snowflakes />
-        {children}
+        <div className="container mx-auto text-white text-center pt-20">
+          {children}
+        </div>
       </body>
     </html>
-  )
+  );
 }
