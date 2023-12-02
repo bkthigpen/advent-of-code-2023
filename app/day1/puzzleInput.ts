@@ -997,7 +997,6 @@ one9xmhvzklmzffive1kcsixmnsbm2
 1dgschj
 nine8foursnczninednds
 9sevensixrsrgmclkvthkgtxqtwovtlxfrdnllxvsghslh
-seven443six8three31
-`;
+seven443six8three31`;
 
 export default puzzleInput;
