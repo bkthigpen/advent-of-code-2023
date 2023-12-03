@@ -8,7 +8,7 @@ import PartTwo from "./PartTwo";
 export default function Day1 () {
   return (
     <div>
-      <h1 className="text-5xl">Day 1 Answers</h1>
+      <h1 className="text-5xl">Day 1: Trebuchet?!</h1>
       <div className="pt-4">
         <h3 className="text-3xl">Part One</h3>
         <PartOne input={puzzleInput} />
