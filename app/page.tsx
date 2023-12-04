@@ -14,6 +14,9 @@ export default function Home() {
         <li>
           <Link href="/day3">Day 3: Gear Ratios</Link>
         </li>
+        <li>
+          <Link href="/day4">Day 4: Scratchcards</Link>
+        </li>
       </ul>
     </div>
   );

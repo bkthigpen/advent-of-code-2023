@@ -1,6 +1,4 @@
-"use client";
-
-export default function PartOne ({ input}: { input: string }) {
+export default function Part1 ({ input}: { input: string }) {
   const RED_CUBES = 12;
   const BLUE_CUBES = 14;
   const GREEN_CUBES = 13;
@@ -47,7 +45,7 @@ export default function PartOne ({ input}: { input: string }) {
     return 0;
   });
 
-  const addAnswer = result.reduce((acc, curr) => acc+ curr, 0);
+  const addAnswer = result.reduce((acc, curr) => acc + curr, 0);
 
   return <div>{addAnswer}</div>
 }

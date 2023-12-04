@@ -44,7 +44,7 @@ export default function Part2 ({ input}: { input: string }) {
     return fewestNumberOfCubes.red * fewestNumberOfCubes.blue * fewestNumberOfCubes.green;
   });
 
-  const addAnswer = result.reduce((acc, curr) => acc+ curr, 0);
+  const addAnswer = result.reduce((acc, curr) => acc + curr, 0);
 
   return <div>{addAnswer}</div>
 }
