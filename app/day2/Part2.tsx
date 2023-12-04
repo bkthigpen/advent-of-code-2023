@@ -1,4 +1,4 @@
-export default function PartTwo ({ input}: { input: string }) {
+export default function Part2 ({ input}: { input: string }) {
   const gamesArray = input.split('Game ').filter(game => game !== '');
 
   const result = gamesArray.map((game, i) => {

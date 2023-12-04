@@ -11,6 +11,9 @@ export default function Home() {
         <li>
           <Link href="/day2">Day 2: Cube Conundrum</Link>
         </li>
+        <li>
+          <Link href="/day3">Day 3: Gear Ratios</Link>
+        </li>
       </ul>
     </div>
   );

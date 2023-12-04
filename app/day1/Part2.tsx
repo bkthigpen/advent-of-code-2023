@@ -40,7 +40,7 @@ function splitStringAtNumbers(inputString: string): string[] {
   return filteredResult;
 }
 
-export default function PartOne ({ input}: { input: string}) {
+export default function Part2 ({ input}: { input: string}) {
   const regexStringNumbers = /^\d+$/;
   const regexForwardsNumbers =  /\W*(one|two|three|four|five|six|seven|eight|nine)\W*/i;;
   const regexBackwardsNumbers = /\W*(eno|owt|eerht|ruof|evif|xis|neves|thgie|enin)\W*/i;

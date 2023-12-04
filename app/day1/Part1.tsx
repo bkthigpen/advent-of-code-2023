@@ -1,4 +1,4 @@
-export default function PartOne ({ input}: { input: string}) {
+export default function Part1 ({ input}: { input: string}) {
   // part one answers
   const firstAndLastChars = input.split("\n").map((char) => {
     const numbersAsString = char.match(/[0-9]+/g)?.join("") ?? "0";
