@@ -2,7 +2,7 @@
 import puzzleInput from "./puzzleInput";
 
 import Part1 from "./Part1";
-// import Part2 from "./Part2";
+import Part2 from "./Part2";
 
 export default function Day4() {
   return (
@@ -14,7 +14,7 @@ export default function Day4() {
       </div>
       <div className="pt-4">
         <h3 className="text-3xl">Part 2</h3>
-        {/* <Part2 input={puzzleInput} /> */}
+        <Part2 input={puzzleInput} />
       </div>
     </div>
   );
