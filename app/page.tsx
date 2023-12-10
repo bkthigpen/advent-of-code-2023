@@ -20,6 +20,9 @@ export default function Home() {
         <li>
           <Link href="/day6">Day 6: Wait For It</Link>
         </li>
+        <li>
+          <Link href="/day9">Day 9: Mirage Maintenance</Link>
+        </li>
       </ul>
     </div>
   );
